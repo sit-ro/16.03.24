@@ -1,0 +1,176 @@
+body {
+    font-family: "Geologica", sans-serif;
+}
+
+.container {
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "block1 block1 block1 block1 block1"
+        "logotp search search other  other"
+        "topic  topic  topic  topic  topic"
+        "block6 block6 block6 block6 block6"
+        "roadmap roadmap roadmap roadmap roadmap"
+        ;
+}
+
+.block-1 {
+    grid-area: block1;
+    background-color: rgb(214, 208, 208);
+    text-align: justify;
+    padding: 5px 0px 10px;
+}
+a {
+    padding: 5px;
+
+}
+
+
+.block-2 {
+    grid-area: logotp;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+}
+
+.logo {
+    transform: scale(0.8);
+
+}
+
+.block-3 {
+    grid-area: search;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.search {
+    height: 60%;
+    width: 70%;
+    background-color: rgb(217, 222, 227);
+
+}
+
+.block-4 {
+    grid-area: other;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+}
+
+.call {
+    margin-left: 20px;
+    margin-top: 25px;
+
+}
+
+.other  {
+    padding: 5px 0px 0px 10px;
+
+}
+
+.block-5 {
+    grid-area: topic;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.block-6 {
+    grid-area: block6;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 10px;
+    color: red;
+}
+
+.roadmap {
+    grid-area: roadmap;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.container-catalog {
+    margin-left: 60px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    grid-template-areas: 
+        "filter header header header header"
+        "filter menu menu menu menu"
+        "filter menu menu menu menu"
+        "filter number number number number"
+        ;
+    height: auto;
+    width: auto;
+    
+
+}
+.filter {
+    grid-area: filter;
+    
+
+}
+.header-menu {
+    grid-area: header;
+
+}
+.menu {
+    grid-area: menu;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.product {
+    grid-area: product;
+    width: 250px;
+    height: 300px;
+    border: 1px solid #000000;
+    
+}
+.number {
+    grid-area: number;
+}
+
+.numberlist {
+    margin-left: 300px;
+
+
+}
+
+.bottomtext {
+    margin-left: 10%;
+    padding: 40px;
+    font-size: large;
+}
+
+.space {
+    height: 100px;
+    width: auto;
+    border: none;
+    background-color: rgb(255, 242, 242);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+
+}
+
+ul {
+    list-style-type: none;   
+}
+
+footer {
+    text-align: center;
+    color: #898787;
+    font-size: small;
+
+
+}
